@@ -1,0 +1,88 @@
+.DCPic {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+.DCDiv{
+    width: 450px;
+    height: 500px;
+    font-size: 1.1rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(255, 0, 0);
+    border: 10px solid #008080;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#superManDiv{
+    background-image: url("./images/superManLogo.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: top center;
+}
+#batManDiv {
+    background-image: url("./images/batManLogo.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.batManColor{
+    background-color: black;
+}
+
+#wonderWomanDiv{
+    background-image: url("./images/WMLogo.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+.WMColor{
+    background-color: navy;
+
+}
+#greenLanternDiv{
+    background-image: url("./images/GLLogo.png");
+    background-size: 5px;
+    background-repeat:repeat;
+    
+
+}
+.GLColor{
+    background-color: black;
+
+}
+#flashDiv{
+    background-image: url("./images/flashLogo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+.flashColor{
+    background-color: yellow;
+    color: black;
+
+}
+#aquamanDiv {
+    background-image: url("./images/aquamanLogo.png");
+    background-size: 50px;
+    background-clip: content-box;
+}
+.aquamanColor {
+    background-color: orange ;
+    color: black;
+}
+#cyborgDiv {
+    background-image: url("./images/cyborgLogo.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.cyborgColor {
+    background-color: #a7abac;
+
+}
